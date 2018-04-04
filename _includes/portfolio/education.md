@@ -1,11 +1,15 @@
--University of British Columbia 
+{:.date}
+9/17 - Present
 
-September 17 – Present
+## University of British Columbia
+
 * B.Sc. Computer Science
 
--University of British Columbia (Okanagan) 
+{:.date}
+1/16 - 4/17
 
-January 16 – April 17
+## University of British Columbia (Okanagan) 
+
 * B.Sc. Computer Science
 * 92% cumulative average
 * Dean’s list

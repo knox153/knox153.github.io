@@ -4,6 +4,9 @@
             {{ include.title }}
         </h1>
     </header>
+	{% if include.decal-img and include.decal-img != "" %}
+    <img class="decal" src="{{ site.url }}/assets/img/{{ include.decal-img }}" alt="Decorative decal for the {{ include.title }} section">
+    {% endif %}
     <div class="card-content">
         <!-- Markdown Content -->
         {% if include.markdown-content %}
