@@ -19,8 +19,12 @@ description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my personal website! Here, you will find my resume and projects that I worked on. Cheers :) 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://knox153.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: NA
 github_username:  knox153
+
+# Headers
+header_pages:
+  - about.md
+  - blog.html
 
 
 # Build settings
@@ -28,10 +32,21 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+# Styling 
 sass:
   sass_dir: _sass
+  style: compressed
+  
+# Defaults
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
 
-
+# Google analytics
+google_analytics: UA-116924830-1
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

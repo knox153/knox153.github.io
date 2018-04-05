@@ -1,7 +1,10 @@
 ---
 layout: post
-title:  "TBD!"
+title:  TBD!
+author: Chee Yew Lim
+keywords: jekyll, blog, portfolio, GitHub
 date:   2018-04-03 13:24:32 -0700
+summary: "Something else"
 categories: blog
 ---
 

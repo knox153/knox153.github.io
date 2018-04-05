@@ -1,5 +1,8 @@
 body {
     font-family: $base-font;
-	//color: rgb(255, 190, 0);
 }
 
+header.card-title {
+    display: inline;
+    font-size: 1.3em;
+}

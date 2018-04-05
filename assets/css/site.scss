@@ -1,8 +1,10 @@
 ---
-sitemap: false
+sitemap: true
 ---
 
 // Partials
 @import "variables";
-@import "page-layout";
 @import "typography";
+@import "page-layout";
+@import "blog-post";
+
