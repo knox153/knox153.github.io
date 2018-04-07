@@ -6,6 +6,7 @@ header.site-header {
     background-color: $header-color;
 }
 
+.accordion,
 section.card,
 article.post {
     background-color: $section-color;
@@ -61,3 +62,28 @@ section.card {
         margin: 0;
     }
 }
+
+.accordion {
+	padding: 30px 30px 20px 35px;
+	margin: 0 0 0 0;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: $header-color;
+	box-shadow: none;
+}
+
+.panel {
+	background-color: $section-color;
+	padding: 40px;
+	box-shadow: 0 0 0 0, 0 0px 25px rgba(34, 34, 34, 0.15);
+	border-radius: 0 0 3px 3px;
+	position: relative;
+	display: none;
+} 

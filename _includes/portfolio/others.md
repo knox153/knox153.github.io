@@ -1,1 +1,21 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum arcu a tortor sollicitudin, vel placerat nulla laoreet. Sed convallis metus quam, ut viverra sapien ultricies eget. Pellentesque risus sem, bibendum in laoreet convallis, commodo interdum sem. Integer quis elit ut ipsum efficitur dapibus quis non risus. Curabitur sit amet sapien volutpat dui convallis blandit. Integer facilisis orci et odio aliquet ultricies. Mauris commodo rutrum arcu et pellentesque. 
+## Kangaroo Math Competition (KMC)
+- 2015 - Gold Medal 
+- 2014 - Gold Medal
+- 2013 - Bronze Medal
+
+## Australian Mathematics Competition (AMC)
+- 2013 - Distinction
+- 2012 - Credit
+- 2011 - Distinction
+- 2010 - Credit
+- 2009 - Credit
+
+## UNSW International Competition and Assessment for Schools Mathematics
+- 2013 - Credit
+- 2012 - Credit
+
+2014 - Euclid Mathematics Contest - Distinction  
+2013 - Chung Hua High School Math Marathon - Runner Up  
+2009 - Chung Hua High School Math Competition - Consolation Prize  
+2007 - SJKC Sin Hua Math Competition - Champion  
+2006 - UCMAS Abacus & Mental Arithmetic State Competition - 2nd Runner-Up  
