@@ -64,7 +64,7 @@ section.card {
 }
 
 .accordion {
-	padding: 30px 30px 20px 35px;
+	padding: 30px 50px 30px 35px;
 	margin: 0 0 0 0;
     cursor: pointer;
     width: 100%;
@@ -72,11 +72,24 @@ section.card {
     border: none;
     outline: none;
     transition: 0.4s;
+	font-size: 30px;
+	
+	&:after {
+	content: '\002B';
+    font-size: 30px;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+	}
 }
 
 .active, .accordion:hover {
     background-color: $header-color;
 	box-shadow: none;
+}
+
+.active:after {
+    content: "\2212";
 }
 
 .panel {
