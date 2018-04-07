@@ -73,6 +73,7 @@ section.card {
     outline: none;
     transition: 0.4s;
 	font-size: 30px;
+	font-family: $base-font;
 	
 	&:after {
 	content: '\002B';
