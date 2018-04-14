@@ -1,1 +1,1 @@
-Highly motivated and detail-oriented computer science student looking forward to challenge myself and make a positive impact on the world. 
+Highly motivated and detail-oriented computer science student looking forward to challenge himself and make a positive impact on the world. 
