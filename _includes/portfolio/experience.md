@@ -6,7 +6,7 @@
 ### Farringdon Group, Kuala Lumpur, Malaysia    
 
 * One month internship with Farringdon Group which specializes in financial management.
-* Manual tested newly developed website, and provided reports of flaws
+* Manual tested newly developed website and provided reports of flaws
 * Researched and computed various financial data, shortened time to acquire data by using various built-in functions
 * Conducted market and economic analysis
 
@@ -17,4 +17,4 @@
 10/11/17
   
 ## ACM Programming Contest
-- Helped to set up the contest, and assisted contestents whenever issues arose
+- Helped to set up the contest, and assisted contestants whenever issues arose

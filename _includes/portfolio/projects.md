@@ -3,7 +3,7 @@
 
 ## Buses Are Us 
 
-* Developed an Android application that maps real time location of buses, routes, and stops
+* Developed an Android application that maps the real-time location of buses, routes, and stops
 * Implemented data abstraction from UML class diagram
 * Tested and implemented JSON parser to process data provided by API
-* Used jUnit tests for debugging and testing code
+* Used JUnit tests for debugging and testing code
