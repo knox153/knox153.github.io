@@ -10,7 +10,7 @@ categories: blog
 
 > 01/05/2018 - I did this analysis about a year ago and posted it on Reddit. The developers have since changed the ladder system multiple times, so some of the following information might be incorrect.  
 
-So I analyzed around 130 games to investigate how the MMR/Elo rating system in Gwent functions. This allows players to have a better understanding of the system and utilize it while climbing the ladder.  
+I analyzed around 130 games to investigate how the MMR/Elo rating system in Gwent functions. This allows players to have a better understanding of the system and utilize it while climbing the ladder.  
 
 # Intro 
 Gwent is an online two-player card game. In this game, there is a ranked system that is used to determine who is a better player (just like FIDE chess rating). Each player has a MMR/rating points (think of it as a number), winning will increase your points while losing will have the opposite effect.
