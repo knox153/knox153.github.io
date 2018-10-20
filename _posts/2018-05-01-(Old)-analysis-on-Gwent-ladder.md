@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  (Old) An analysis on Gwent's ladder
+title: An analysis on Gwent's ladder (Outdated)
 author: Chee Yew Lim
 keywords: Gwent, ladder, mmr, rank point, rank, analysis 
 date:   2018-05-01 10:14:32 -0700
