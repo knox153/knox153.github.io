@@ -19,6 +19,14 @@ article.post {
         width: 100%;
         height: auto;
     }
+    video + em { 
+        display: block; 
+        text-align: center;
+    }
+    img + em { 
+        display: block; 
+        text-align: center;
+    } 
 }
 
 section.card {
