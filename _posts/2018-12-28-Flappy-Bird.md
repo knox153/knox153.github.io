@@ -36,7 +36,7 @@ This is quite simple, all we have to do is to add the sprites and render the cor
 ![Picture of medal on score screen]({{ site.url }}/assets/img/medal.png)
 *Bronze medal on the score screen*
 
-*Bonus!* I made three medals sprites using [Aseprite][aseprite] and you can download them for free [**here**]({{ site.url }}/assets/file/medals.zip). :)
+*Bonus*! I made three medals sprites using [Aseprite][aseprite] and you can download them for free [**here**]({{ site.url }}/assets/file/medals.zip). :)
 
 ![Picture of gold, silver, bronze medal]({{ site.url }}/assets/img/allMedal.png)
 *All three medals*
@@ -93,7 +93,7 @@ self.y =  self.y +  self.dy * dt
 
 Of course, it doesn't have to be 1000 and -275, but these two values are what I found to be very similar to the previous movement.
 
-**Bird can fly over the pipe**
+**Bird can fly over the pipe**  
 In the current implementation of the game, the collision between the bird and pipe is done using [AABB][aabb]. However, because the pipe has a limited height, the bird can fly all the way above the pipe and avoid all the pipes easily. 
 
 ![Picture of bird flying over the pipes]({{ site.url }}/assets/img/flyOver.png)
@@ -104,7 +104,7 @@ One solution is to change how the collision is being calculated and make sure th
 Another solution that can be used is by adding a skybox (by just flipping the ground upside down and render it on top). We already have pipes coming out of the sky, so adding a "ground" to the sky isn't that ridiculous, right? 
 
 ```lua
-GROUND_HEIGHT = ground:getHeight() -- this is in main.lua
+GROUND_HEIGHT = ground:getHeight() -- this line is in main.lua
 love.graphics.draw(ground, -groundScroll, GROUND_HEIGHT, 0, 1, -1)
 
 -- reset if we reach the sky. -10 so that the hitbox is more forgiving. 
