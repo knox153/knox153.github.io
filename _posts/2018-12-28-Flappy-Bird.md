@@ -103,6 +103,9 @@ One solution is to change how the collision is being calculated and make sure th
 
 Another solution that can be used is by adding a skybox (by just flipping the ground upside down and render it on top). We already have pipes coming out of the sky, so adding a "ground" to the sky isn't that ridiculous, right? 
 
+![Gif of bird hitting the skybox]({{ site.url }}/assets/img/skyBox.gif)
+*The skybox implemented!*
+
 ```lua
 GROUND_HEIGHT = ground:getHeight() -- this line is in main.lua
 love.graphics.draw(ground, -groundScroll, GROUND_HEIGHT, 0, 1, -1)
