@@ -26,7 +26,7 @@ When changing the gap height (the distance between upper and lower pipe), be cau
 ![Gif of random gap height]({{ site.url }}/assets/img/gapHeight.gif)
 *Randomize gap height*
 
-Similar concept to the last one, to randomize the time to spawn the next pipes pair, we can just use a variable that will be randomized whenever a pipe pair is spawned. Friendly reminder that "math.random(lower, upper)" will only produce an integer. Float number can be achieved with "lower + math.random() * (upper - lower)".  
+Similar concept to the last one, to randomize the time to spawn the next pipes pair, we can just use a variable that will be randomized whenever a pipe pair is spawned. Friendly reminder that `math.random(lower, upper)` will only produce an integer. Float number can be achieved with `lower + math.random() * (upper - lower)`.  
 
 ![Gif of random time to spawn]({{ site.url }}/assets/img/timeToSpawn.gif)
 *Randomize time to spawn the next pipes*
@@ -47,20 +47,20 @@ This is quite simple, all we have to do is to add the sprites and render the cor
 
 I have considered two ways to do this. Starting with the easier one, we can just add a boolean variable to keep track of the game is being paused or not. If it is paused, nothing will be done in the update function. Otherwise, it will update all the entities as usual.  
 
-Another more elegant solution is by adding a new state - PauseState. I decided to went with this route because I wanted to have more practice with the state machine class, and this felt like a cleaner way to do it. The code will be encapsulated in a different file making it easier to read and modify! Whenever the player press "p", the game will transition from play state to pause state, and vice versa.
+Another more elegant solution is by adding a new state - `PauseState`. I decided to went with this route because I wanted to have more practice with the state machine class, and this felt like a cleaner way to do it. The code will be encapsulated in a different file making it easier to read and modify! Whenever the player press "p", the game will transition from play state to pause state, and vice versa.
 
-Whenever we change state, everything from the previous state will be "deleted" unless it is being passed as a parameter in the changeState function. We will use this to save the previous state's variable so that the game can be continued from where it was paused. The main steps breakdown:
+Whenever we change state, everything from the previous state will be "deleted" unless it is being passed as a parameter in the `changeState` function. We will use this to save the previous state's variable so that the game can be continued from where it was paused. The main steps breakdown:
 
-1. When going from the PlayState to PauseState, store all variables (bird, pipes etc...) of the PlayState in a table and pass it as a parameter in the changeState function.
-2. Now the enterState function that will be executed upon entering the PauseState will receive the table from step 1.
-3. We can then store the table in a variable for the PauseState
-4. Whenever we are going back to PlayState, the table that is being stored in a variable can be passed back to it as a parameter.  
-5. In the enterState function of the PlayState, we can check if there is any parameter. If there is none (which means this is the first time entering the PlayState), we then intialize everything to default. On the other hands, if there is a parameter (which means it is coming from pauseState), we would want to initialize it to the value in the table.
+1. When going from the `PlayState` to `PauseState`, store all variables (bird, pipes etc...) of the `PlayState` in a table and pass it as a parameter in the `changeState` function.
+2. Now the `enterState` function that will be executed upon entering the `PauseState` will receive the table from step 1.
+3. We can then store the table in a variable for the `PauseState`.
+4. Whenever we are going back to `PlayState`, the table that is being stored in a variable can be passed back to it as a parameter.  
+5. In the `enterState` function of the `PlayState`, we can check if there is any parameter. If there is none (which means this is the first time entering the `PlayState`), we then intialize everything to default. On the other hands, if there is a parameter (which means it is coming from `PauseState`), we would want to initialize it to the value in the table.
 
 {% include video.html file="pause.mp4" attr="autoplay controls loop muted" %}
 *Pause feature!*
 
-> Side story: Initially, I couldn't get the pause feature to work even though all the codes looks fine. Eventually, I found out that the PlayState class already has an enterState function at the bottom of the code, thus replacing my enterState function at the top of the code <sup><sup>facepalm</sup></sup>. Don't be me haha, always check if there is an existing function before writing a new one.  
+> Side story: Initially, I couldn't get the pause feature to work even though all the codes looks fine. Eventually, I found out that the `PlayState` class already has an `enterState` function at the bottom of the code, thus replacing my `enterState` function at the top of the code <sup><sup>facepalm</sup></sup>. Don't be me haha, always check if there is an existing function before writing a new one.  
 
 # Bugs & Changes
 
@@ -76,12 +76,12 @@ self.y =  self.y +  self.dy
 ```
 {: data-title="/Bird.lua" .code-title }
 
-The original last line of the code does not rely on "dt" (time passed since last frame) to calculate the y position. This is an issue because the bird will moves faster on a faster machine, and a slower machine will have a slower bird. Frame independent physic is always an important thing to consider in game development. Just look at this speed:
+The original last line of the code does not rely on `dt` (time passed since last frame) to calculate the y position. This is an issue because the bird will moves faster on a faster machine, and a slower machine will have a slower bird. Frame independent physic is always an important thing to consider in game development. Just look at this speed:
 
 ![Gif of bird moving super duper fast when frame is high]({{ site.url }}/assets/img/vsyncOff.gif)
 *This is running at around 400+fps*  
 
-This can be easily fixed by adding "dt" into the equation. The value now is going to be a lot smaller (because dt is usually a small fraction of a second). So we need to scale the gravity constant and the "self.dy" so that it will match the previous speed.
+This can be easily fixed by adding `dt` into the equation. The value now is going to be a lot smaller (because `dt` is usually a small fraction of a second). So we need to scale the gravity constant and the `self.dy` so that it will match the previous speed.
 
 ```lua
 -- adding dt and chaging the constant
@@ -126,7 +126,7 @@ end
 ```
 {: data-title="/PlayState.lua" .code-title }
 
-Ground height is stored in a variable so that we only have to call the getHeight function once (slight performance increase). Don't forget to move the skybox down once we flipped it upside down. And be sure to move down the scoreboard and the upper pipes so that the skybox doesn't cover them. Bonus: we are reusing the asset as well!
+Ground height is stored in a variable so that we only have to call the `getHeight` function once (slight performance increase). Don't forget to move the skybox down once we flipped it upside down. And be sure to move down the scoreboard and the upper pipes so that the skybox doesn't cover them. Bonus: we are reusing the asset as well!
 
 If you have read everything until the end, well done and thank you!
 
