@@ -1,6 +1,6 @@
 ---
 layout: post
-title: An analysis on Gwent's ladder (Outdated)
+title: An analysis on Gwent's ladder
 author: Chee Yew Lim
 keywords: Gwent, ladder, mmr, rank point, rank, analysis 
 date:   2018-05-01 10:14:32 -0700
@@ -8,7 +8,7 @@ summary: "How to calculate rank points and what affect it in Gwent"
 categories: blog
 ---
 
-> 01/05/2018 - I did this analysis about a year ago and posted it on Reddit. The developers have since changed the ladder system multiple times, so some of the following information might be incorrect.  
+> 01/05/2018 - I did this analysis about a year ago. The developers have since changed the ladder system multiple times, so some of the following information might be incorrect.  
 
 I analyzed around 130 games to investigate how the MMR/Elo rating system in Gwent functions. This allows players to have a better understanding of the system and utilize it while climbing the ladder.  
 
