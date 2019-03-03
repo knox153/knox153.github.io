@@ -25,14 +25,14 @@ Score, cards remaining, or the number of rounds won’t affect the MMR/points yo
 
 Winning is easy to calculate because your rank doesn’t matter. Generally, it works how we expected it to be. The higher the MMR you have than your opponent, the less MMR you gain when you win, vice versa (look at the graph below to have a better idea how much). If you want to calculate how much points you will gain, just use the formula in the graph below.
 
-![Graph of mmr when winning]({{ site.url }}/assets/img/gwent_rank_win.png)
+![Graph of mmr when winning]({{ site.url }}/assets/img/Gwent Ladder Analysis/gwent_rank_win.png)
 
 # Losing
 
 Losing is much harder to calculate because your rank matters. The higher the rank you have, the more point you will lose. I have two graphs here showing the difference. Even though these two graphs have a similar pattern, we can see that when facing the same MMR opponent, we lose around 33 points at rank 6, but 43 points at rank 14. Much more data at different rank will be needed to verify how it really works, but it is too time-consuming for me so I stopped after collecting around 130 games at these two different rank.  
 
-![Graph of mmr when losing at rank6]({{ site.url }}/assets/img/gwent_rank_loss_6.png)
-![Graph of mmr when losing at rank14]({{ site.url }}/assets/img/gwent_rank_loss_14.png)
+![Graph of mmr when losing at rank6]({{ site.url }}/assets/img/Gwent Ladder Analysis/gwent_rank_loss_6.png)
+![Graph of mmr when losing at rank14]({{ site.url }}/assets/img/Gwent Ladder Analysis/gwent_rank_loss_14.png)
 
 # Draw
 
@@ -52,6 +52,6 @@ Draw (or a disconnect that led to a draw), depends on whether you have higher or
 
 I climbed to top 300 and rank 15 (highest rank during beta) in two weeks >.<
 
-![Top 300]({{ site.url }}/assets/img/gwent_top_300.png)
+![Top 300]({{ site.url }}/assets/img/Gwent Ladder Analysis/gwent_top_300.png)
 
 [raw-data]: https://docs.google.com/spreadsheets/d/1Q7Wi6Go1ahuDGGp2q5DeuFGslv2eIEoNWq_X62edY5M/edit#gid=0
