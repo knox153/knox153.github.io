@@ -3,7 +3,7 @@ layout: post
 title: GD50 Lecture 04 - Super Mario Bros.
 author: Chee Yew Lim
 keywords: Super Mario Bros, spawn above ground, generate key, generate lock, spawn goal post, regenerate longer level, game development, CS50, GD50 
-date:   2019-3-14 22:55:22 -0700
+date:   2019-3-03 22:55:22 -0700
 summary: "always spawn a player above the ground, generate a key that can be used to unlock a lock, unlocking lock will spawn a flag post, touching flag post regenerate a new longer level"
 categories: blog
 ---
