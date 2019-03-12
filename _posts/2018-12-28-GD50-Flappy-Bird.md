@@ -132,6 +132,8 @@ Ground height is stored in a variable so that we only have to call the `getHeigh
 
 If you have read everything until the end, well done and thank you!
 
+---
+
 [flappy-bird]: https://en.wikipedia.org/wiki/Flappy_Bird
 [aseprite]: https://www.aseprite.org/
 [aabb]: https://en.wikipedia.org/wiki/Minimum_bounding_box#Axis-aligned_minimum_bounding_box
