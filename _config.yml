@@ -49,8 +49,8 @@ defaults:
 google_analytics: UA-116924830-1
 
 # Disqus 
-# disqus:
-#  shortname: knox153
+disqus:
+ shortname: knox153
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
