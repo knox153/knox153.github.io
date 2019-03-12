@@ -79,6 +79,8 @@ Random level generation can be fun, but we also need to be careful about generat
 
 This post is slightly shorter than usual, and I think that is because most of the stuff here felt straight forward and does not require much explanation. But I still hope this is informative! Till next time!
 
+---
+
 [SMB]: https://en.wikipedia.org/wiki/Super_Mario_Bros.
 [TileMap]: https://developer.mozilla.org/en-US/docs/Games/Techniques/Tilemaps
 [online-course]: https://courses.edx.org/courses/course-v1:HarvardX+CS50G+Games/course/
