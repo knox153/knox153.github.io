@@ -3,7 +3,7 @@ layout: post
 title: GD50 Lecture 06 - Angry Birds
 author: Chee Yew Lim
 keywords: Angry Birds, split the alien, game development, CS50, GD50 
-date:   2019-07-04 22:55:22 -0700
+date:   2019-07-06 22:55:22 -0700
 summary: "split the alien that the player launched into three when spacebar is pressed"
 categories: blog
 ---
