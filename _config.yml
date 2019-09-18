@@ -17,13 +17,14 @@ title: Chee Yew Lim
 email: cheeyew.lim@alumni.ubc.ca
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my personal website! Here, you will find my resume and projects that I worked on. Cheers :) 
+  <br>Icon made by <a href="https://thenounproject.com/iconfactoryteam/">IconfactoryTeam</a> from <a href="https://thenounproject.com">thenounproject.com</a>
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://knox153.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 # github_username:  knox153
 
 # Headers
 header_pages:
-  - about.md
+  # - about.md
   - blog.html
 
 
