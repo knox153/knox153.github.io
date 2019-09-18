@@ -3,4 +3,4 @@
 * **Applications:** Julia, MATLAB, R  
 * **Web:** HTML5, JavaScript, TypeScript*, Jekyll
 
-**Learning*
+* = *Learning*

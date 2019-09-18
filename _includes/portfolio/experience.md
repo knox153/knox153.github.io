@@ -24,8 +24,9 @@
 ## Finance Intern
 ### Farringdon Group, Kuala Lumpur, Malaysia    
 * One month internship with Farringdon Group which specializes in financial management
-* Manual tested newly developed website and provided reports of flaws
-* Researched and computed various financial data, shortened time to acquire data by using scripts and built-in functions
+* Conducted manual testing on website and provided reports of flaws
+* Researched and computed various financial data
+* Shortened time to acquire data by at least 50% using API and scripts
 * Conducted market and economic analysis
 
 
